@@ -1,23 +1,30 @@
 body {
     margin: 0;
-    background-color: rgb(208, 255, 239);
+    background-image: url('https://images.pexels.com/photos/750225/pexels-photo-750225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=75');
+    
 }
 
 .main-game {
+    
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+h3{
+    font-size: 3rem;
+    text-align: center;
+    color: blanchedalmond;
+    height: 50%;
+}
 
 .genius {
     display: grid;
     grid-template-areas: 'verde vermelho'
     'amarelo azul';
-    grid-gap: 10px;
-    border: 1px solid #ffffff;
-    background-color: #ffffff;
+    grid-gap: 10px;    
+    background-image: url('https://images.pexels.com/photos/750225/pexels-photo-750225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=200');
     border-radius: 100%;
     width: 700px;
     height: 700px;
@@ -25,25 +32,25 @@ body {
 
 .blue {
     grid-area: azul;
-    background-color: blue;
+    background-color: #F2D852;
     border-bottom-right-radius: 100%;
 }
 
 .red {
     grid-area: vermelho;
-    background-color: red;
+    background-color: #F2B84B;
     border-top-right-radius: 100%;
 }
 
 .yellow {
     grid-area: amarelo;
-    background-color: yellow;
+    background-color: #F2A444;
     border-bottom-left-radius: 100%;
 }
 
 .green {
     grid-area: verde;
-    background-color: green;
+    background-color: #BF7534;
     border-top-left-radius: 100%;
 }
 
