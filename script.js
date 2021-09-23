@@ -44,7 +44,7 @@ let checkOrder = () => {
         }
     }
     if(clickedOrder.length == order.length) {
-        alert(`Pontuação: ${score}\nVocê acertou! Iniciando próximo nível!`);
+        alert(`Pontuação: ${score}\nParabéns! Iniciando próximo nível!`);
         nextLevel();
     }
 }
@@ -81,7 +81,7 @@ let nextLevel = () => {
 
 //funcao para game over
 let gameOver = () => {
-    alert(`Pontuação: ${score}!\nVocê perdeu o jogo!\nClique em OK para iniciar um novo jogo`);
+    alert(`Pontuação: ${score}!\n Errou! Mas não desista\nClique em OK para iniciar um novo jogo`);
     order = [];
     clickedOrder = [];
 
@@ -90,7 +90,7 @@ let gameOver = () => {
 
 //funcao de inicio do jogo
 let playGame = () => {
-    alert('Bem vindo ao Gênesis! Iniciando novo jogo!');
+    alert('Bem vindo ao Geniuns! Vamos começar?!');
     score = 0;
 
     nextLevel();
